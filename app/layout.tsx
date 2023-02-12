@@ -12,6 +12,8 @@ export default function Layout({ children }: Props) {
         <>
         
             <div className={styles.dashboard_container}>
+                {/* <div className={styles.dashboard_left_div}>
+                </div> */}
                 <div className={styles.dashboard_left}>
                     <Sidebar />
                 </div>

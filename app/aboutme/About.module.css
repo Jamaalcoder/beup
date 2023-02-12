@@ -1,0 +1,18 @@
+.about_conatiner{
+    display: flex;
+    background: white;
+    margin-block: 10px;
+    padding: 30px;
+    box-shadow: -1px 2px 28px -8px rgb(198 207 230 / 62%);
+}
+.leftside_image{
+    max-width: 500px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.rightside_content{
+    width: 100%;
+    padding: 10px;
+    object-fit: contain;
+}

@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
 nav{
     display: flex;
     gap: 10px;
@@ -12,3 +17,14 @@ nav{
     color: red;
 }
 
+main{
+    /* margin: 10px;
+    overflow: overlay;
+    height: 100vh; */
+
+    margin-inline: 10px;
+    
+    margin-top: 10px;
+    margin-bottom: 60px;
+    overflow: hidden;
+}

@@ -6,7 +6,8 @@
     object-fit: contain;
     width: 100% ;
     height: unset !important;
-   
+    border: solid #eaefef 4px;
+  
   }
 }
 
@@ -19,5 +20,7 @@
       width: 80% !important;
       height: unset !important;
      border-radius: 50%;
+     border: solid #eaefef 4px;
+
     }
 }
