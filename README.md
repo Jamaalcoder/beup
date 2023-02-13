@@ -43,4 +43,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 # Project status:
 - As time progresses, the user interface (UI) and colors of websites can drastically change. 
 
-![alttext](https://github.com/Jamaalcoder/beup/blob/a4e35515c2e4f69c1dd0715f995dce02f22e6fc8/public/beup-screenshot.png)
+![alttext](https://github.com/Jamaalcoder/beup/blob/main/public/beup-screenshot.png?raw=true)
