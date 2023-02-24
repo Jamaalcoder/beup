@@ -8,7 +8,7 @@ export default function BootCampLink() {
             <div className={styles.sidebar_items}>
                 <ul>
                     <li>
-                        <Link href={'/'} ><RiPantoneLine size={24} /> <span>BootCamp</span></Link>
+                        <Link href={'/bootcamp'} ><RiPantoneLine size={24} /> <span>BootCamp</span></Link>
                     </li>
                 </ul>
             </div>

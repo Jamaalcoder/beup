@@ -7,7 +7,7 @@ export default function ProjectLink() {
             <div className={styles.sidebar_items}>
                 <ul>
                     <li>
-                        <Link href={'/'} ><RiInboxLine size={24} /> <span>Projects</span> </Link>
+                        <Link href={'/projects'} ><RiInboxLine size={24} /> <span>Projects</span> </Link>
                     </li>
                 </ul>
             </div>

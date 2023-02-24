@@ -8,7 +8,7 @@ export default function ContactLink() {
             <div className={styles.sidebar_items}>
                 <ul>
                     <li>
-                        <Link href={'/'} ><RiMailStarLine size={24} /> <span>Contact Me</span> </Link>
+                        <Link href={'/contact_me'} ><RiMailStarLine size={24} /> <span>Contact Me</span> </Link>
                     </li>
                 </ul>
             </div>

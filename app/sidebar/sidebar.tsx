@@ -6,7 +6,6 @@ import BootCampLink from './bootCampLink'
 import ContactLink from './contactLink'
 import FollowMeLinks from './followMeLinks'
 import Avatar from '../avatar/Avatar'
-import Head from 'next/head'
 export default function Sidebar() {
   return (
     <>
