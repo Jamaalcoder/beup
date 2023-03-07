@@ -17,16 +17,16 @@ box-shadow: -1px 2px 28px -8px rgba(198,207,230,0.62);
    
 }
 .profile_container span:first-of-type{
-    font-size: 2rem;
+    font-size: 4vw;
     font-weight: 100;
 }
 .profile_fullname{
     color: blueviolet;
     margin: 7px;
-    font-size: 3rem;
+    font-size: 5vw;
 }
 .profile_professional{
-    font-size: 4rem;
+    font-size: 5vw;
     font-weight: 900;
     background-clip: text;
     -webkit-background-clip: text;
@@ -61,3 +61,4 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9c27b0",endCo
     background: white;
     border: solid 1px;
 }
+

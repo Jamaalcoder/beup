@@ -9,9 +9,9 @@ export default function Header() {
             
                 <header className={styles.header}>
                     <nav>
-                        <Link className={router.pathname === '/' ? 'active' : ''} href={'/'} >Home</Link>
+                        {/* <Link className={router.pathname === '/' ? 'active' : ''} href={'/'} >Home</Link>
                         <Link className={router.pathname === '/about' ? 'active' : ''} href={'/about'} >About</Link>
-                        <Link className={router.pathname === '/blog' ? 'active' : ''} href={'/blog'} >Blog</Link>
+                        <Link className={router.pathname === '/blog' ? 'active' : ''} href={'/blog'} >Blog</Link> */}
                     </nav>
                 </header>
             

@@ -10,8 +10,8 @@ export default function ProfileLinks() {
             <Link href={'/'} ><RiHome5Line size={24} /> <span>Profile</span> </Link>
             <ul>
               <li><Link href={'/skills'}><RiPsychotherapyLine widths={100} size={24} /><span>Skills</span> </Link></li>
-              <li><Link href={'/value'}><RiHandHeartLine size={24} /> <span>Value</span> </Link></li>
-              <li><Link href={'/goal'}><RiFocus2Line size={24} /><span>Goal</span> </Link></li>
+              {/* <li><Link href={'/value'}><RiHandHeartLine size={24} /> <span>Value</span> </Link></li> */}
+              {/* <li><Link href={'/goal'}><RiFocus2Line size={24} /><span>Goal</span> </Link></li> */}
             </ul>
           </li>
         </div>

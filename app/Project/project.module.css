@@ -1,0 +1,105 @@
+
+
+@media only screen and (min-width: 1010px) {
+  .projects__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .project_card{
+    display: flex;
+    max-width: 440px;
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    gap: 15px;
+    background: white;
+    box-shadow: -1px 2px 28px -8px rgb(198 207 230 / 62%);
+  }
+    .project__image__wrapper{
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+    }
+    .project__image{
+      
+      position: unset !important;
+      object-fit: cover;
+      width: 100% ;
+      /* height: unset !important; */
+      border: solid #eaefef 4px;
+    
+    }
+    .project__icons__bg{
+      background-color: #f7f9fb;
+      border: 0;
+      cursor: pointer;
+      padding-block: 5px;
+      padding-inline: 24px;
+      margin-right: 10px;
+      box-shadow: -1px 2px 28px -8px rgb(140 153 188 / 57%);
+    }
+    .project__icons__bg:hover{
+      background-color: #f7f9fb;
+      box-shadow: -1px 2px 28px -8px rgba(95, 138, 255, 0.781);
+    }
+ 
+    .project__bio{
+      padding: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 1010px) {
+    .projects__wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .project_card{
+      display: flex;
+      max-width:440px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-content: center;
+      gap: 15px;
+      background: white;
+      box-shadow: -1px 2px 28px -8px rgb(198 207 230 / 62%);
+    }
+      .project__image__wrapper{
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+      }
+      .project__image{
+        
+        position: unset !important;
+        object-fit: cover;
+        width: 100% ;
+        /* height: unset !important; */
+        border: solid #eaefef 4px;
+      
+      }
+      .project__icons__bg{
+        background-color: #f7f9fb;
+        border: 0;
+        cursor: pointer;
+        padding-block: 5px;
+        padding-inline: 24px;
+        margin-right: 10px;
+        box-shadow: -1px 2px 28px -8px rgb(140 153 188 / 57%);
+      }
+      .project__icons__bg:hover{
+        background-color: #f7f9fb;
+        box-shadow: -1px 2px 28px -8px rgba(95, 138, 255, 0.781);
+      }
+   
+      .project__bio{
+        padding: 10px;
+      }
+  }
+  

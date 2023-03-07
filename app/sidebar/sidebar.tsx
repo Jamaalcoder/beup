@@ -15,7 +15,7 @@ export default function Sidebar() {
         <div className={styles.sidebar_middle}>
         <div className={styles.sidebar_middle_top}>
           <div className={styles.sidebar_top_avatar_container} >
-            <Avatar src={'https://i.pravatar.cc'}  />
+            <Avatar src={'https://avatars.githubusercontent.com/u/43518055?v=4'}  />
             <h2>
               <span className={styles.sidebar_top_avatar_first}>jamaal</span> 
               <span className={styles.sidebar_top_avatar_last}>mahamed</span> 
