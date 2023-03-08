@@ -1,0 +1,57 @@
+@media only screen and (min-width: 1010px) {
+    .bootcamp_card {
+        display: flex;
+        background-color: white;
+        padding: 17px;
+
+    }
+
+    .bootcamp__image_wrapper {
+
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+
+    }
+
+    .bootcamp__image {
+        position: unset !important;
+        object-fit: cover;
+        width: 100%;
+        /* height: unset !important; */
+        border: solid #eaefef 4px;
+    }
+
+    .bootcamp__para {
+        padding: 25px;
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+    .bootcamp_card {
+        display: flex;
+        background-color: white;
+        padding: 17px;
+        flex-direction: column;
+    }
+
+    .bootcamp__image_wrapper {
+
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+
+    }
+
+    .bootcamp__image {
+        position: unset !important;
+        object-fit: cover;
+        width: 100%;
+        /* height: unset !important; */
+        border: solid #eaefef 4px;
+    }
+
+    .bootcamp__para {
+        padding: 15px;
+    }
+}

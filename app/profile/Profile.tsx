@@ -1,4 +1,6 @@
+import Link from 'next/link'
 import React from 'react'
+import { RiInboxLine } from 'react-icons/ri'
 import styles from './profile.module.css'
 type Props = {}
 
@@ -11,8 +13,9 @@ function Profile({}: Props) {
     <h1 className={styles.profile_fullname}><span>Jamaal</span> <span>Mahamed</span></h1>
     <span className={styles.profile_professional}>I am Full-Stack Web Developer</span>
     <div className={styles.profile_btn}>
-    <button>Download CV</button>
-    <button>Contact Me</button>
+    <button><Link className={styles.profile_btn_resume} href={'/projects'} ><div>Check My Resume</div> <RiInboxLine size={24} /></Link></button>
+    <button><Link className={styles.profile_btn_project} href={'/projects'} ><div>See My Projects</div><RiInboxLine size={24} /></Link></button>
+    {/* <button><Link className={styles.profile_btn_contact} href={'/contact_me'} ><div>Contact Me</div> <RiInboxLine size={24} /></Link></button> */}
 
     </div>
     </div>

@@ -45,7 +45,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9c27b0",endCo
 .profile_btn button{
     outline: none;
     border: #673ab7 solid 1px;
-    padding: 15px;
+    padding: 0;
+    height: 55px;
     color: #009688;
     cursor: pointer;
 
@@ -54,7 +55,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9c27b0",endCo
     outline: none;
     background-color: #673ab7;
     border: #673ab7 solid 1px;
-    padding: 15px;
+    padding: 0;
+    height: 55px;
+
     color: white;
 }
 .profile_btn button:last-child{
@@ -62,3 +65,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9c27b0",endCo
     border: solid 1px;
 }
 
+.profile_btn_project,.profile_btn_resume,.profile_btn_contact{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 27px;
+    height: 0px;
+    gap: 6px;
+}
+.profile_btn_resume{
+    color: white;
+}

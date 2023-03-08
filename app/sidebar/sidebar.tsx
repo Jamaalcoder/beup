@@ -26,10 +26,10 @@ export default function Sidebar() {
           <ProjectLink />
           <BootCampLink />
           <FollowMeLinks />
-          <ContactLink />
+          {/* <ContactLink /> */}
         </div>
         <div className={styles.sidebar_bottom}>
-          <ContactLink />
+          {/* <ContactLink /> */}
         </div>
       </aside>
     </>
