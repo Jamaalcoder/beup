@@ -9,7 +9,7 @@ const Values = (props: Props) => {
                 <div className={styles.values__content}>
                     <p className={styles.values_title}>What I Value</p>
                         <ul className={styles.ul_dot}>
-                            <li className={styles.li_dot}>As a software engineer I value</li>
+                            <li className={styles.li_dot}>As a software engineer.</li>
                             <ul className={styles.nested_ul}>
                                 <li>workplace that is friendly</li>
                                 <li>interpersonal communication</li>

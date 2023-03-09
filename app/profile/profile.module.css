@@ -69,8 +69,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9c27b0",endCo
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 27px;
-    height: 0px;
+    padding: 5px;
+    height: 50px;
     gap: 6px;
 }
 .profile_btn_resume{

@@ -3,19 +3,19 @@
     margin-block: 1rem;
 }
 .values__content{
-    padding-inline: 1rem;
+    padding-inline: 0rem;
 }
 .values_title{
     font-weight: 700;
 }
 .ul_dot{
     list-style-type: disc;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 .li_dot{
     font-weight: 700;
 }
 .nested_ul{
-    margin-left: 43px;
+    margin-left: 20px;
     margin-top: 10px;
 }

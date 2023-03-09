@@ -17,7 +17,7 @@
     
       position: unset !important;
       object-fit: contain;
-      width: 80% !important;
+      width: 100% !important;
       height: unset !important;
      border-radius: 50%;
      border: solid #eaefef 4px;

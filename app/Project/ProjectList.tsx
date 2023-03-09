@@ -36,7 +36,7 @@ const ProjectList = ({src,urlSite,urlRep}: Props) => {
                 </div>
             </div>
             <div className={styles.project__bio}>
-                <p>this is a detail about this project</p>
+                {/* <p>this is a detail about this project</p> */}
             </div>
         </div>
     </div>
