@@ -13,7 +13,7 @@ function Profile({}: Props) {
     <h1 className={styles.profile_fullname}><span>Jamaal</span> <span>Mahamed</span></h1>
     <span className={styles.profile_professional}>I am Full-Stack Web Developer</span>
     <div className={styles.profile_btn}>
-    <button><Link className={styles.profile_btn_resume} href={'/projects'} ><div>Check My Resume</div> <RiInboxLine size={24} /></Link></button>
+    <button><Link  target={"_blank"} rel="noopener noreferrer" className={styles.profile_btn_resume} href={'https://drive.google.com/file/d/1eAE2INQtg_XZ689l6zHVRi27gS-JnGJK/view'} ><div>Check My Resume</div> <RiInboxLine size={24} /></Link></button>
     <button><Link className={styles.profile_btn_project} href={'/projects'} ><div>See My Projects</div><RiInboxLine size={24} /></Link></button>
     {/* <button><Link className={styles.profile_btn_contact} href={'/contact_me'} ><div>Contact Me</div> <RiInboxLine size={24} /></Link></button> */}
 

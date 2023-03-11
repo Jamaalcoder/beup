@@ -13,7 +13,7 @@ const Backend = (props: Props) => {
         <div className={styles.skill__icon__wrapper}>
           <div className={styles.block}>
             <span>NodeJS</span>
-            <SiNodedotjs color='DarkOrange' size={80} />
+            <SiNodedotjs color='Darkgreen' size={80} />
           </div>
           <div className={styles.block}>
             <span>ExpressJs</span>

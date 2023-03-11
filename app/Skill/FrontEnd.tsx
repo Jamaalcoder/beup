@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiCss3, SiHtml5, SiJavascript, SiNpm, SiReact, SiSass, SiTypescript } from "react-icons/si";
+import { SiCss3, SiHtml5, SiJavascript, SiNpm, SiReact, SiRedux, SiSass, SiTypescript } from "react-icons/si";
 import styles from './skill.module.css'
 type Props = {}
 
@@ -25,12 +25,16 @@ const FrontEnd = (props: Props) => {
           </div>
           <div className={styles.block}>
             <span>HTML 5</span>
-            <SiHtml5 color='DarkOrange' size={80} />
+            <SiHtml5 color='Darkred' size={80} />
 
           </div>
           <div className={styles.block}>
             <span>ReactJs</span>
             <SiReact color='DodgerBlue' size={80} />
+          </div>
+          <div className={styles.block}>
+            <span>Redux Toolkit</span>
+            <SiRedux color='DodgerBlue' size={80} />
           </div>
           <div className={styles.block}>
             <span>NPM</span>
